@@ -1,0 +1,14 @@
+.box {
+    height: 2000px;
+}
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: #000;
+    position: sticky;
+    top: 0;
+}
+h1 {
+    color: red;
+    size: 0px;
+}
