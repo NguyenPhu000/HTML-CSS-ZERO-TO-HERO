@@ -1,0 +1,24 @@
+h3,
+p {
+  color: blue;
+  font-size: larger;
+  font-style: italic;
+}
+h1 {
+  /* màu chữ */
+  color: burlywood;
+  /* kiểu chữ */
+  font-style: italic;
+  /* font chữ */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* chuyển viết hoa/thường */
+  text-transform: uppercase;
+  text-transform: capitalize;
+  text-transform: lowercase;
+  /* cỡ chữ */
+  font-size: 40px;
+  /* position */
+  text-align: center;
+  /* text-align: left;
+  text-align: right; */
+}
