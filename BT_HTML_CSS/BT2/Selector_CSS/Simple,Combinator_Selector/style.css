@@ -1,0 +1,26 @@
+.line1,
+p {
+  color: red;
+}
+.line3.size2 {
+  color: blueviolet;
+}
+.li1 {
+  color: aqua;
+}
+div,
+p {
+  color: blue;
+}
+div p {
+  font-size: 30px;
+}
+div > p {
+  text-align: center;
+}
+div + p {
+  text-align: right;
+}
+p ~ ul {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}

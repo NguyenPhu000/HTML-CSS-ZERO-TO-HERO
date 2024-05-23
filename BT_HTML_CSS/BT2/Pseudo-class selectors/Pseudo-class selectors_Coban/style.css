@@ -1,0 +1,27 @@
+.hover:hover {
+  color: red;
+  font-size: 30px;
+}
+.active:active {
+  color: hotpink;
+  font-size: 30px;
+}
+.click:link {
+  color: brown;
+}
+.click:visited {
+  color: blue;
+}
+.div_elm:empty {
+  width: 200px;
+  height: 200px;
+  background-color: hotpink;
+}
+.div_elm {
+  width: 200px;
+  height: 200px;
+  background-color: aliceblue;
+}
+h2:target {
+  color: red;
+}
