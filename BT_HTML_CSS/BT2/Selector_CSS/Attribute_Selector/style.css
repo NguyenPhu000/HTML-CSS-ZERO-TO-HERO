@@ -1,0 +1,43 @@
+/* [attribute] sử dụng để chọn chỉ định thuộc tính */
+[href] {
+  color: rgb(198, 148, 31);
+}
+p[href] {
+  color: blue;
+}
+/* [attribute="value"] sử dụng để chọn chỉ 
+định thuộc tính */
+[target="_blank"] {
+  color: hotpink;
+}
+p[style="font-size: 30px;"] {
+  color: brown;
+}
+/* "[attribute~="value"]" chọn tất cả thuộc tính có 
+chứa giá trị chỉ định ở dầu */
+[title~="-aloo"] {
+  font-size: 40px;
+  color: brown;
+}
+/* "[attribute*="value"]" chọn tất cả thuộc tính có 
+chứa giá trị chỉ định trong chuỗi giá trị của thuộc tính */
+[title*="haha"] {
+  font-size: 40px;
+  color: brown;
+}
+/* "[attribute|="value"]" chọn tất cả thuộc tính có 
+từ duy nhất bắt đầu bằng giá trị được chỉ đỉnh */
+[title|="pic"] {
+  color: brown;
+  font-size: 30px;
+}
+/* "[attribute$="value"]" chọn tất cả thuộc tính có 
+từ kết thúc bằng giá trị được chỉ đỉnh */
+[title$="car"] {
+  color: brown;
+}
+/* "[attribute^="value"]" chọn tất cả thuộc tính có giá trị 
+được chỉ đỉnh không quan tâm space hay gì đó ở sau*/
+[title^="mvp"] {
+  color: brown;
+}

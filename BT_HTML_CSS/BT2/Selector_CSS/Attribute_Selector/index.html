@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Attribute Selector</title>
+  </head>
+  <body>
+    <h1>Học cách sử dụng Attribute Selector</h1>
+    <h2>sử dụng "[attribute]" để chọn tới thuộc tính chi định</h2>
+    <p>
+      <a href="">dòng 1</a>
+      <a href="">dòng 2</a>
+      <a href="">dòng 3</a>
+      <p href="">aaaaaaaaaaaa</p>
+    </p>
+    <h2>sử dụng "[attribute="value"]" để chọn tới thuộc tính chi định có giá trị đi kèm</h2>
+    <p>
+      <a href="https://www.w3schools.com/" target="_blank">dòng 1</a>
+      <a href="https://www.w3schools.com/" target="_self">dòng 2</a>
+      <a href="https://www.w3schools.com/" >dòng 3</a>
+      <p href="https://www.w3schools.com/" style="font-size: 30px;">aaaaaaaaaaaa</p>
+    </p>
+    <h2>sử dụng "[attribute~="value"]" chọn tất cả thuộc tính có chứa giá trị chỉ định ở đầu <br>
+        vd: [title~="pic"] -> chọn thuộc tính có giá trị bắt đầu bằng pic hoặc -pic
+    </h2>
+    <p>
+      <a href="https://www.w3schools.com/" title="aloooo">dòng 1</a>
+      <a href="https://www.w3schools.com/" title="aloo">dòng 2</a>
+      <a href="https://www.w3schools.com/" title="-aloo">dòng 3</a>
+      <a href="https://www.w3schools.com/" title="_aloo">dòng 4</a>
+    </p>
+    <h2>sử dụng "[attribute*="value"]" chọn tất cả thuộc tính có chứa giá trị chỉ định trong chuỗi giá trị của thuộc tính<br>
+      vd: [title*="pic"] -> chọn thuộc tính có giá trị pic có trong chuỗi giá trị
+  </h2>
+  <p>
+    <a href="https://www.w3schools.com/" title="haha">dòng 1</a>
+    <a href="https://www.w3schools.com/" title="dhfgahfsdfaha">dòng 2</a>
+    <a href="https://www.w3schools.com/" title="h-hdaloodhfg">dòng 3</a>
+    <a href="https://www.w3schools.com/" title="hdfjg_haha">dòng 4</a>
+  </p>
+  <h2>sử dụng "[attribute|="value"]" chọn tất cả thuộc tính có từ duy nhất bắt đầu bằng giá trị được chỉ đỉnh <br>
+    vd: [title|="pic"] -> chọn thuộc tính title có từ duy nhất bắt đầu bằng từ "pic" hoặc "pic-123"...
+</h2>
+<p>
+  <a href="https://www.w3schools.com/" title="pic">dòng 1</a>
+  <a href="https://www.w3schools.com/" title="picc">dòng 2</a>
+  <a href="https://www.w3schools.com/" title="pic-123">dòng 3</a>
+  <a href="https://www.w3schools.com/" title="abc-pic">dòng 4</a>
+</p>
+<h2>sử dụng "[attribute$="value"]" chọn tất cả thuộc tính có từ  kết thúc bằng giá trị được chỉ đỉnh <br>
+  vd: [title$="123"] -> chọn thuộc tính title có từ kết thúc bằng 123
+</h2>
+<p>
+<a href="https://www.w3schools.com/" title="abc">dòng 1</a>
+<a href="https://www.w3schools.com/" title="car-abc">dòng 2</a>
+<a href="https://www.w3schools.com/" title="pic car">dòng 3</a>
+<a href="https://www.w3schools.com/" title="abc-pic">dòng 4</a>
+</p>
+<h2>sử dụng "[attribute^="value"]" chọn tất cả thuộc tính có z
+  từ bắt đầu bằng giá trị được chỉ đỉnh (không quan tâm space ở sau)<br>
+  vd: [title^="mvp"] -> chọn thuộc tính title có từ mvp đứng đầu 
+                        không quan tâm space ở sau
+</h2>
+<p>
+<a href="https://www.w3schools.com/" title="mvp pvm">dòng 1</a>
+<a href="https://www.w3schools.com/" title="pvm mvp">dòng 2</a>
+<a href="https://www.w3schools.com/" title="mvp1231">dòng 3</a>
+<a href="https://www.w3schools.com/" title="mvp-pvm-123">dòng 4</a>
+</p>
+  </body>
+</html>
