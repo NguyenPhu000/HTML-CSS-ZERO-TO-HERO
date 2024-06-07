@@ -1,0 +1,17 @@
+.box {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  background-color: red;
+}
+.box1 {
+  border: 10px solid tomato;
+}
+.box2 {
+  border: 10px dashed black;
+  margin-left: 159.22px;
+}
+.box3 {
+  border: 25px groove blue;
+  margin-left: 318.44px;
+}
