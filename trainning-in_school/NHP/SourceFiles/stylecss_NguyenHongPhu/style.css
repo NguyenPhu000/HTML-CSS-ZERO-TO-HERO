@@ -1,0 +1,190 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 10000px;
+}
+body {
+  background-color: #f1f1f1;
+}
+/* index */
+#top_div {
+  min-height: 100px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 5px 5px lightgray;
+  margin: 5px;
+  padding: 5px;
+}
+#left_div {
+  min-height: 500px;
+  width: 20%;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 5px 5px lightgray;
+  margin: 5px;
+  padding: 5px;
+  float: left;
+}
+#center_div {
+  min-height: 500px;
+  width: 60%;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 5px 5px lightgray;
+  margin: 10px 10px;
+  padding: 5px;
+  float: left;
+}
+#right_div {
+  min-height: 500px;
+  width: 16%;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 5px 5px lightgray;
+  margin: 5px;
+  padding: 5px;
+  float: left;
+}
+#bottom_div {
+  min-height: 200px;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 5px 5px lightgray;
+  margin: 5px;
+  padding: 5px;
+  clear: both;
+}
+/* =====center===== */
+p {
+  color: red;
+}
+.cls01 {
+  color: blueviolet;
+}
+#id01 {
+  color: yellowgreen;
+}
+strong {
+  font-weight: bold;
+  color: brown;
+  font-size: 16px;
+}
+/* =====Menu===== */
+.cateOrder {
+  font-weight: bold;
+}
+.itemOrder {
+  font-style: italic;
+}
+ul {
+  list-style: square;
+  margin: 0;
+  padding-left: 15px;
+}
+a {
+  text-decoration: none;
+}
+/* =====slide img===== */
+.div_slide_img {
+  width: 80%;
+  margin: auto;
+}
+.div_view {
+  width: 700px;
+  height: 500px;
+  border: solid;
+}
+.div_list {
+  width: 700px;
+  height: 100px;
+  border: solid;
+}
+#img_view {
+  width: 600px;
+}
+.img_cls {
+  width: 90px;
+}
+.img_cls:hover {
+  width: 95px;
+}
+/* =====jq ajax===== */
+#content {
+  width: 84%;
+  height: auto;
+  border: solid;
+}
+#video {
+  width: 100%;
+  height: auto;
+  border: solid;
+}
+#get_content {
+  width: 100%;
+  height: auto;
+}
+.link_menu:hover {
+  cursor: pointer;
+}
+/* =====userView=====*/
+.icon_img {
+  height: 20px;
+}
+/* form */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  border: 1px solid;
+}
+.title_user {
+  align-self: flex-start;
+  font-size: 17px;
+}
+/* =====Update form===== */
+.btn_update:hover {
+  cursor: pointer;
+}
+/* logout button */
+#logout_btn {
+  position: fixed;
+  z-index: 5;
+  top: 10px;
+  right: 0;
+  opacity: 0.75;
+  font-size: 20px;
+  padding: 10px;
+}
+/* ===== loaihang ===== */
+/* img */
+.img_resize {
+  padding: 4px;
+  height: 100px;
+}
+.img_resize:hover {
+  height: 110px;
+  opacity: 1;
+}
+* .cursor:hover,
+input:hover {
+  cursor: pointer;
+}
+/* update form */
+#w-update {
+  position: absolute;
+  z-index: 1;
+  min-height: 200px;
+  min-width: 600px;
+  border: 2px solid rgb(112, 128, 144);
+  border-radius: 10px;
+  box-shadow: 10px 10px gainsboro;
+  background: whitesmoke;
+}
